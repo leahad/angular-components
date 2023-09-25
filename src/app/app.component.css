@@ -21,3 +21,8 @@
   bottom: 0;
   right: 0;
 }
+
+.vital {
+  color: red;
+  font-weight: bold;
+}
