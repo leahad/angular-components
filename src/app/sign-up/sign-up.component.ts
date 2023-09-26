@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class SignUpComponent {
 
+model: User = new User("","","","");
+
+onSubmit(): void {
+  // Formulaire envoyé
+  console.log(this.model);
+}
+
+}
+
+export class User {
+  constructor(
+    public email: string,
+    public firstname: string,
+    public lastname: string,
+    public password: string
+    ) {}
 }
